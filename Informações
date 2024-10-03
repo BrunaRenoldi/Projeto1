@@ -1,0 +1,36 @@
+<h1>Titulo</h1>
+<p>Escrever um paragrafo</p>
+<a href="https://rocketseat.com.br">Ver site</a> - Link
+<img
+  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGfpQ3m-QWiXgCBJJbrcUFdNdWAhj7rcUqjeNUC6eKcXZDAtWm"
+/>
+<div>Quebra de texto</div>
+<span>Texto contínuo</span>
+border: Borda. = 1px, unidade de medidada; solid, tipo de margem; cor; height:
+60px = Altura da caixa Padding: 60px = Preenchimento interno da caixa margin:
+20px = Margem display: inline = Mantem os elemtos um do lado do outro display:
+block: Joga o próximo conteúdo para a linha abaixo
+<div></div>
+Tem quebra de linha e não tem estilo <meta charset="UTF-8" /> Conjunto de
+caractéres especiais que vamos usar na página, como ~,ç, etc <meta
+name="viewport" content="width=device-width, initial-scale=1. - Tudo que é
+visivel dentro da página, parte do body, Se adaptar ao tamanho da página
+<head>
+  Ficam invisiveis na página url - função que recebe o caminho de onde esta a
+  imagem, se encarrega em adicionar a imagem margin - Alinha ao meio. Em
+  elemntos inline (div), n conseguimos aplicar o margin auto /*
+  background-image: url(/assets/bg-mobile.jpg); background-repeat: no-repeat;
+  background-position: top center; background-size: cover; */ /*background:
+  color image repeat position/size */ background: url(/assets/bg-mobile.jpg)
+  no-repeat top center/cover; - Atalho para as descrições acima
+  <ul>
+    É onde cria listas >>
+    <li>
+      item da lista target="_blank" - Abrir link em nova guia li é um display
+      block e o a é um diplay inline JS Ativar o botão pra trocar as cores da
+      pagina if (html.classList.contains("light")) {
+      html.classList.remove("light") } else { html.classList.add("light") }
+      Resumo: html.classList.toggle("light")
+    </li>
+  </ul>
+</head>
